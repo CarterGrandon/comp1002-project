@@ -201,8 +201,12 @@ main > div > section > p {
     font-weight: bold;
 }
 
+#add1:active, #add2:active, #add3:active, #add4:active, #add5:active, #add6:active {
+    background: #feca57;
+}
+
 #remove1, #remove2, #remove3, #remove4, #remove5, #remove6 {
-    background: #5f27cd;
+    background: #341f97;
     color: #ff9f43;
     padding: 10px;
     padding-top: 10px;
@@ -213,6 +217,10 @@ main > div > section > p {
 #remove1:hover, #remove2:hover, #remove3:hover, #remove4:hover, #remove5:hover, #remove6:hover {
     color: #feca57;
     font-weight: bold;
+}
+
+#remove1:active, #remove2:active, #remove3:active, #remove4:active, #remove5:active, #remove6:active {
+    background: #5f27cd;
 }
 
 #items > article > footer > p {
