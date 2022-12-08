@@ -1,0 +1,236 @@
+@import url(./reset.css);
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Ubuntu&display=swap');
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h2, h3, h4, h5, h6 {
+    font-family: 'Lato', sans-serif;
+    color: #341f97;
+}
+
+header > nav > ul {
+    background-color: #5f27cd;
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    align-items: center;
+}
+
+header > nav > ul > li {
+    margin: 5%;
+}
+
+header > nav > ul > li > img {
+    height: 40px;
+}
+
+header > nav > ul > li > a {
+    color: #ff9f43;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 15pt;
+}
+
+header > nav > ul > li > a:hover {
+    color:#feca57;
+}
+
+header > h1 {
+    color: #ff9f43;
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+    font-size: 32pt;
+    font-weight: bold;
+}
+
+#amazin-co {  
+    background: url(../images/moritz-graf-o754lnxriHM-unsplash.jpg);
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.8);
+    flex-direction: column;
+    align-items: center;
+    margin: 0px;
+    margin-bottom: 15px;
+}
+
+#order {
+    color: #ff9f43;
+    background: url(../images/adrian-sulyok-sczNLg6rrhQ-unsplash.jpg);
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.8);
+    flex-direction: column;
+    align-items: center;
+    margin: 0px;
+    margin-bottom: 15px;
+}
+
+#about {
+    color: #ff9f43;
+    background: url(../images/krzysztof-hepner-TH7TW20de9s-unsplash.jpg);
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.8);
+    flex-direction: column;
+    align-items: center;
+    margin: 0px;
+    margin-bottom: 15px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main > h2 {
+    margin: 13px;
+    font-size: 26pt;
+}
+
+main > p {
+    width: 75%;
+    font-size: 14pt;
+    max-width: 950px;
+}
+
+main > a {
+    margin: 5px;
+    color: #ff9f43;
+    font-size: 15pt;
+}
+
+main > a:hover {
+    color:#feca57;
+    font-weight: bold;
+}
+
+body > footer {
+    color: #341f97;
+    margin: 9px;
+    margin-top: 29px;
+}
+
+body > footer > p {
+    margin: 3px;
+}
+
+main > div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1000px;
+}
+
+main > div > section {
+    width: 43%;
+    outline: 1px solid #5f27cd;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #c8d6e5;
+}
+
+main > div > section > h3 {
+    font-size: 20pt;
+    margin-bottom: 5px;
+}
+
+main > div > section > p {
+    font-size: 14pt;
+}
+
+#items {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: none;
+    margin-bottom: 15px;
+}
+
+#items > article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 210px;
+    outline: 1px solid #5f27cd;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 8px;
+    background: #c8d6e5;
+}
+
+#items > article > h2 {
+    font-size: 20pt;
+    padding: 3px;
+}
+
+#items > article > footer > div {
+    display: flex;
+    flex-direction: row;
+    font-size: 14pt;
+}
+
+#add1, #add2, #add3, #add4, #add5, #add6, #make-order {
+    background: #ff9f43;
+    color: #341f97;
+    padding: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+#add1:hover, #add2:hover, #add3:hover, #add4:hover, #add5:hover, #add6:hover, #make-order:hover {
+    color: #5f27cd;
+    font-weight: bold;
+}
+
+#remove1, #remove2, #remove3, #remove4, #remove5, #remove6 {
+    background: #5f27cd;
+    color: #ff9f43;
+    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+}
+
+#remove1:hover, #remove2:hover, #remove3:hover, #remove4:hover, #remove5:hover, #remove6:hover {
+    color: #feca57;
+    font-weight: bold;
+}
+
+#items > article > footer > p {
+    font-size: 15pt;
+    font-weight: bold;
+    padding: 3px;
+    display: flex;
+    justify-content: center;
+}
+
+#price-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 16pt;
+}
+
+#total {
+    margin: 15px;
+    font-size: 17pt;
+}
